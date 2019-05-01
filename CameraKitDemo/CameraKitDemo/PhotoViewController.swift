@@ -179,7 +179,8 @@ class PhotoViewController: UIViewController, CKFSessionDelegate {
         guard let window = UIApplication.shared.keyWindow else {
             return
         }
-        
+        //window.transform = CGAffineTransform(scaleX: -1, y: 1);
+
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Video")
         UIView.transition(with: window, duration: 0.5, options: .transitionFlipFromLeft, animations: {
             window.rootViewController = vc

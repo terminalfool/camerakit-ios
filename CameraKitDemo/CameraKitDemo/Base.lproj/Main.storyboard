@@ -64,6 +64,11 @@
                                     <constraint firstItem="Fmb-ws-sF8" firstAttribute="centerX" secondItem="0UD-h8-yNR" secondAttribute="centerX" id="RbR-jl-KLK"/>
                                     <constraint firstItem="WrD-in-aex" firstAttribute="centerY" secondItem="0UD-h8-yNR" secondAttribute="centerY" id="XNk-AI-peP"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="Fmb-ws-sF8"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cs9-hk-xYz">
                                 <rect key="frame" x="0.0" y="448" width="320" height="120"/>
@@ -72,14 +77,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="120"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7Y-ln-hAO">
-                                                <rect key="frame" x="34" y="22" width="58" height="28"/>
+                                                <rect key="frame" x="24" y="22" width="78" height="28"/>
                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="28" id="nrV-ZY-C94"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
-                                                <state key="normal" title="More">
+                                                <state key="normal" title="Settings">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -102,14 +107,14 @@
                                         <rect key="frame" x="160" y="0.0" width="160" height="120"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtF-gF-F2f">
-                                                <rect key="frame" x="66.5" y="22" width="61" height="28"/>
+                                                <rect key="frame" x="69" y="22" width="56" height="28"/>
                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="28" id="F2a-5d-ubg"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
-                                                <state key="normal" title="Video">
+                                                <state key="normal" title="Start">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -165,6 +170,11 @@
                                     <constraint firstItem="Xbi-Fa-6xS" firstAttribute="top" secondItem="cs9-hk-xYz" secondAttribute="top" id="oWN-4q-4Nt"/>
                                     <constraint firstItem="LdO-Yf-4xq" firstAttribute="width" secondItem="cs9-hk-xYz" secondAttribute="width" multiplier="0.5" id="sOf-Bw-naf"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="ytB-me-T6F"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYV-rq-kpy">
                                 <rect key="frame" x="0.0" y="286" width="320" height="314"/>
@@ -569,13 +579,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                                     </view>
                                     <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="geg-uJ-o6S">
-                                        <rect key="frame" x="143.5" y="8" width="33" height="19"/>
+                                        <rect key="frame" x="155" y="8" width="10" height="4"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="D1W-hG-xu5">
-                                            <rect key="frame" x="0.0" y="0.0" width="33" height="19"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="10" height="4"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgm-xz-SIc">
-                                                    <rect key="frame" x="5" y="2" width="23" height="15"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgm-xz-SIc">
+                                                    <rect key="frame" x="5" y="2" width="0.0" height="0.0"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -588,6 +598,7 @@
                                                 <constraint firstItem="Vgm-xz-SIc" firstAttribute="top" secondItem="D1W-hG-xu5" secondAttribute="top" constant="2" id="xjU-J4-rsB"/>
                                             </constraints>
                                         </view>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                         <blurEffect style="light"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -606,6 +617,19 @@
                                     <constraint firstItem="aD4-vr-3Ay" firstAttribute="leading" secondItem="H5V-hZ-kXh" secondAttribute="leading" id="kIU-Q1-sx9"/>
                                     <constraint firstItem="geg-uJ-o6S" firstAttribute="top" secondItem="aD4-vr-3Ay" secondAttribute="top" constant="8" id="pYD-MB-Rxl"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="geg-uJ-o6S"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="iIA-Sr-wtG"/>
+                                        <exclude reference="pYD-MB-Rxl"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gkJ-dS-9tC" appends="YES" id="UaH-dE-keV"/>
+                                    <outletCollection property="gestureRecognizers" destination="wYi-ym-JtL" appends="YES" id="oh9-xq-PLs"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ImZ-dP-6IQ">
                                 <rect key="frame" x="0.0" y="448" width="320" height="120"/>
@@ -614,14 +638,16 @@
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="120"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vi-wz-Ar3">
-                                                <rect key="frame" x="34" y="22" width="58" height="28"/>
-                                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="51" y="22" width="24" height="28"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="28" id="pdq-qb-uOW"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
-                                                <state key="normal" title="More">
+                                                <state key="normal">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -644,14 +670,15 @@
                                         <rect key="frame" x="160" y="0.0" width="160" height="120"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnG-5O-Crr">
-                                                <rect key="frame" x="66" y="22" width="62" height="28"/>
-                                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="85" y="22" width="24" height="28"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="28" id="yh3-yu-6dg"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
-                                                <state key="normal" title="Photo">
+                                                <state key="normal">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -672,11 +699,12 @@
                                     </view>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sB0-OM-OYf">
                                         <rect key="frame" x="126" y="2" width="68" height="68"/>
-                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="68" id="1EA-uB-gei"/>
                                             <constraint firstAttribute="width" constant="68" id="2Oe-vU-ttA"/>
                                         </constraints>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="34"/>
@@ -685,7 +713,7 @@
                                                 <real key="value" value="3"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -707,6 +735,11 @@
                                     <constraint firstItem="6Fg-F6-1kh" firstAttribute="top" secondItem="ImZ-dP-6IQ" secondAttribute="top" id="Xv8-QO-yMh"/>
                                     <constraint firstItem="6Fg-F6-1kh" firstAttribute="width" secondItem="ImZ-dP-6IQ" secondAttribute="width" multiplier="0.5" id="mBB-kk-Ttp"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="sB0-OM-OYf"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUz-01-u2q">
                                 <rect key="frame" x="0.0" y="336" width="320" height="264"/>
@@ -793,6 +826,16 @@
                 <swipeGestureRecognizer direction="up" id="lS0-ae-g6z">
                     <connections>
                         <action selector="handleSwipeUp:" destination="GmM-IO-P9K" id="mxb-PY-G6S"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="gkJ-dS-9tC">
+                    <connections>
+                        <action selector="handleSwipeLeft:" destination="GmM-IO-P9K" id="K9h-BL-1lt"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="wYi-ym-JtL">
+                    <connections>
+                        <action selector="handleSwipeRight:" destination="GmM-IO-P9K" id="Wr2-2o-yup"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>

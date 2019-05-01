@@ -16,6 +16,7 @@
 		3AD9374D21E53BF2006A8C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9374B21E53BF2006A8C86 /* Main.storyboard */; };
 		3AD9374F21E53BF3006A8C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9374E21E53BF3006A8C86 /* Assets.xcassets */; };
 		3AD9375221E53BF3006A8C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9375021E53BF3006A8C86 /* LaunchScreen.storyboard */; };
+		84883634226B210D00FC1534 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 84883633226B210D00FC1534 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		3AD9375121E53BF3006A8C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AD9375321E53BF3006A8C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AD9375A21E53C14006A8C86 /* CameraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CameraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84883633226B210D00FC1534 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				3AD9375021E53BF3006A8C86 /* LaunchScreen.storyboard */,
 				3AD9374721E53BF2006A8C86 /* AppDelegate.swift */,
 				3AD9375321E53BF3006A8C86 /* Info.plist */,
+				84883633226B210D00FC1534 /* Podfile */,
 			);
 			path = CameraKitDemo;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			files = (
 				3AD9375221E53BF3006A8C86 /* LaunchScreen.storyboard in Resources */,
 				3AD9374F21E53BF3006A8C86 /* Assets.xcassets in Resources */,
+				84883634226B210D00FC1534 /* Podfile in Resources */,
 				3AD9374D21E53BF2006A8C86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,14 +323,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C2YGFPPZP6;
+				DEVELOPMENT_TEAM = THNWFM232X;
 				INFOPLIST_FILE = CameraKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wonderkiln.CameraKitDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = us.adnauseam.CameraKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -338,14 +342,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C2YGFPPZP6;
+				DEVELOPMENT_TEAM = THNWFM232X;
 				INFOPLIST_FILE = CameraKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wonderkiln.CameraKitDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = us.adnauseam.CameraKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;

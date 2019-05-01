@@ -146,6 +146,34 @@ class VideoViewController: UIViewController, CKFSessionDelegate {
         }
     }
     
+    
+    
+    
+    @IBAction func handleSwipeLeft(_ sender: Any) {
+        guard let window = UIApplication.shared.keyWindow else {
+            return
+        }
+        window.transform = CGAffineTransform(scaleX: -1, y: 1);
+        
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Video")
+        UIView.transition(with: window, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+            window.rootViewController = vc
+        }, completion: nil)
+    }
+
+    @IBAction func handleSwipeRight(_ sender: Any) {
+        guard let window = UIApplication.shared.keyWindow else {
+            return
+        }
+        window.transform = CGAffineTransform(scaleX: 1, y: 1);
+        
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Video")
+        UIView.transition(with: window, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+            window.rootViewController = vc
+        }, completion: nil)
+    }
+
+    
     @IBAction func handleCapture(_ sender: UIButton) {
         if let session = self.previewView.session as? CKFVideoSession {
             if session.isRecording {
